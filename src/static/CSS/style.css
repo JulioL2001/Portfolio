@@ -39,7 +39,7 @@ html{
 }
 
 .header-container1{
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-color: #E6C26E;
     background-image: url(../img/fundo_2.png);
@@ -57,7 +57,7 @@ html{
 }
 
 .header-container2{
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-color: #E6C26E;
     background-image: url(../img/fundo_3.png);
@@ -294,22 +294,8 @@ h3 {
 }
 
 .card {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 100%;
-    margin: 0.15rem 0 0 0;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #E6C26E;
-    background-image: url(../img/card_1.png);
-    background-position: left;
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: #000000;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
 }
 
 .card-text {
@@ -319,16 +305,16 @@ h3 {
     text-align: justify;
 }
 
-.card-wrapper {
+/* .card-wrapper {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-}
+} */
 
-.card-wrapper::before {
+/* .card-wrapper::before {
     content: '';
     position: absolute;
     height: 5rem;
@@ -338,7 +324,7 @@ h3 {
     border: 2px solid white;
     opacity: 0;
     transition: 0.5s ease-in-out;
-}
+} */
 
 
 .card:hover {
@@ -540,7 +526,262 @@ h3 {
     width: 50px;
 }
 
+
+
+
 /* Responsividade (Media Queries) */
+
+
+
+@media (max-width: 500px){
+    .card-text {
+        width: 100%;
+        letter-spacing: 1px;
+        color: #000000;
+        text-align: justify;
+        font-size: medium;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+
+    .text1 h1 {
+        height: auto;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: rgb(0, 0, 0);
+        padding-top: 0%;
+        margin-bottom: 35rem;
+        width: 10rem;
+        margin-left: 0rem;
+    }
+
+    .card-text1 {
+        width: 100%;
+        letter-spacing: 1px;
+        color: #000000;
+        text-align: justify;
+        font-size: medium;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    .card-container1 {
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card-text2 {
+        width: 100%;
+        letter-spacing: 1px;
+        color: #000000;
+        text-align: justify;
+        font-size: medium;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    .card-container2 {
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+
+    .text2{
+        height: auto;
+        font-size: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: rgb(0, 0, 0);
+        padding-top: 0%;
+        margin-top: 15rem;
+        width: 10rem;
+        margin-left: -5rem;
+        }
+
+    .social-media a{
+    text-decoration: none;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    border: 0.1rem solid #000000;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+    }
+
+    .socials{
+        margin-bottom: 22rem;
+    }
+    
+    .socials h1{
+        font-size: 100%;
+    } 
+    .socials h2{
+        font-size: 75%;
+    } 
+    .socials h3{
+        font-size: 50%;
+    } 
+
+}
+
+@media (max-width: 850px){
+
+    .text1 h1{
+        height: auto;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: rgb(0, 0, 0);
+        padding-top: 0%;
+        margin-top: 15rem;
+        width: 10rem;
+        margin-left: -5rem;
+        }
+
+    .social-media a{
+    text-decoration: none;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    border: 0.1rem solid #000000;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+    }
+
+    .socials{
+        
+        margin-right: 15rem;
+    }
+
+    .social-media{
+
+        margin-bottom: rem;
+    }
+    
+    /* .socials h1{
+        font-size: 80%;
+    } 
+    .socials h2{
+        font-size: 55%;
+    } 
+    .socials h3{
+        font-size: 40%;
+    } */
+
+
+}
+
+
+
+/* @media (max-width: 900px){
+    .card-text {
+        width: 100%;
+        letter-spacing: 1px;
+        color: #000000;
+        text-align: justify;
+        font-size: medium;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+
+   
+
+    .card-text1 {
+        width: 100%;
+        letter-spacing: 1px;
+        color: #000000;
+        text-align: justify;
+        font-size: medium;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    .card-container1 {
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card-text2 {
+        width: 100%;
+        letter-spacing: 1px;
+        color: #000000;
+        text-align: justify;
+        font-size: medium;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    .card-container2 {
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+
+    .text2{
+        height: auto;
+        font-size: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: rgb(0, 0, 0);
+        padding-top: 0%;
+        margin-top: 15rem;
+        width: 10rem;
+        margin-left: -5rem;
+        }
+
+    .social-media a{
+    text-decoration: none;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    border: 0.1rem solid #000000;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+    }
+
+    .socials{
+        margin-bottom: 20rem;
+    }
+    
+    .socials h1{
+        font-size: 100%;
+    } 
+    .socials h2{
+        font-size: 75%;
+    } 
+    .socials h3{
+        font-size: 50%;
+    } 
+
+} */
+
 
 /*@media (max-width: 425px){
     .header-container {

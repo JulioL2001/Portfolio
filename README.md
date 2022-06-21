@@ -23,23 +23,23 @@
  <hr>
      <p>Pasta doc:<p> 
 <ul>
-  <li>PDF contendo o wireframe mobile do portfólio</li>
+  <li>PDF contendo o wireframe mobile do portfólio.</li>
 </ul>
 <p>Pasta static:</p>
 <ul> 
-  <li>Pasta CSS contendo arquivo de estilização e renderizção das páginas</li>
-    <li>styles.css</li>
-  <li>Pasta img contendo imagens utilizadas no portfólio</li>
+  <li>Pasta CSS contendo arquivo de estilização e renderizção das páginas;</li>
+    <li>styles.css;</li>
+  <li>Pasta img contendo imagens utilizadas no portfólio.</li>
 </ul>
 
 <p>Pasta templates:</p>
 <ul> 
-  <li>Home.html</li>
-  <li>Quem Sou.html</li>
-  <li>Projetos.html</li>
+  <li>Home.html;</li>
+  <li>Quem Sou.html;</li>
+  <li>Projetos.html.</li>
 </ul>
 
-<p>README.md</p>
+<p>README.md.</p>
 
 <hr>
    
@@ -52,10 +52,10 @@
    
    <P>Novas atualizações: <P>
       <ul>
-        <Li>Sistema responsivo</li>
-        <Li>Implementação de imagens</li>
-        <li>Informações pessoais e profissionais</li>
-        <li>Ajustes apontados pelo professor</li>
+        <Li>Sistema responsivo;</li>
+        <Li>Implementação de imagens;</li>
+        <li>Informações pessoais e profissionais;</li>
+        <li>Ajustes apontados pelo professor.</li>
       </ul>
  </div>
   
@@ -71,7 +71,23 @@
    <h2 align="center"> Entrega 3 </h2>
      <hr>
 
-<p>Em breve...⏰⏰⏰</p>
+<P>Novas atualizações: <P>
+      <ul>
+        <Li>Atualização do sistema responsivo;</li>
+        <Li>Acréscimo de Imagem Responsiva;</li>
+        <li>Implatação do site no heroku;</li>
+        <li>Reorganização de pasta;</li>
+        <li>Ajustes apontados pelo professor.</li>
+      </ul>
+ 
+<P>Pasta src: <P>
+      <ul>
+        <Li>Reorganização dos arquivos principais;</li>
+        <li>Adição de arquivo __init__.py.</li>
+      </ul>
+ 
+<p>.gitignore<p>
+<p>Procfile<p>
 
 <hr>
      
@@ -82,30 +98,53 @@
 Implantar esse sistema localmente:
 
 
-<strong> 1. Clonar o repositório </strong>
+    
+<strong> 1. Clonar o repositório: </strong>
+    
+Crie uma pasta, nela execute o cmd e coloque:
+    
+```console
+git clone https://github.com/JulioL2001/Portfolio.git
+```
+    
+<strong> 2. Entrar na pasta:</strong> 
 
-<strong> 2. Criar um ambiente virtual </strong> 
-
-(cmd windows)
 
 ```console
-py-3 -m venv venv
+cd Portfolio
 ```
 
-<strong> 3. Ativar o ambiente virtual:</strong>
+<strong> 3. Criar um ambiente virtual:</strong> 
 
 ```console
-venv\scripts\activate
+python -m venv venv
 ```
-<strong> 4. Instalar as dependências:</strong>
+
+<strong> 4. Ativar o ambiente virtual:</strong>
+
+```console
+venv\Scripts\activate
+```
+    
+<strong> 5. Instalar as dependências:</strong>
+    
 ```console
 pip install -r requirements.txt
 ```
-<strong> 5. Executar a aplicação </strong>
+  
+<strong> 6. Entrar na pasta src:</strong>
+    
+    
+```console
+cd src
+```
+    
+<strong> 7. Executar o flask:</strong>
+    
+    
 ```console
 flask run
 ```
-
 
 
 <hr>
